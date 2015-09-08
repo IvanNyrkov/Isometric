@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="isometric" width="15" height="10" tilewidth="64" tileheight="32" backgroundcolor="#575757">
+ <tileset firstgid="1" name="stone" tilewidth="64" tileheight="32">
+  <image source="images/stone2.png" width="64" height="32"/>
+  <tile id="0">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="2" name="air" tilewidth="64" tileheight="32">
+  <image source="images/air2.png" width="64" height="32"/>
+ </tileset>
+ <layer name="Слой тайлов 1" width="15" height="10">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NkYGBgpANmQsIwMQY0cXwY3TwGCuwl1T5CfHz2EWsvIb3E+BMXH9lcYsOc0vgGAOwaLz5YAgAA
+  </data>
+ </layer>
+</map>
